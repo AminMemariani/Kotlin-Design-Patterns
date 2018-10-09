@@ -24,7 +24,7 @@ class RetrofitClient {
 
     companion object {
         private var myInstance: RetrofitClient? = null
-        private const val BASE_URL = "http://185.156.173.111/~twannas/"
+        private const val BASE_URL = "http://YOUR_BASE_URL/"
 
         @Synchronized
         fun getInstance(): RetrofitClient? {
